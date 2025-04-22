@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="20dp">
+
+    <!-- Row 1 -->
+
+    <!-- Row 2 -->
+
+    <!-- Row 3 -->
+
+    <ImageView
+        android:id="@+id/icon_led_tv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/led_tv_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_furniture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/furniture_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_hotel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/hotel_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_flight"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="312dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/airplane_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_shopping_cart"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/shopping_cart_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_fashion"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="312dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/fashion_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_beauty"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="436dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/beautiful_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_mobile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/mobile_phone_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_offers"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="436dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:src="@drawable/sale_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
